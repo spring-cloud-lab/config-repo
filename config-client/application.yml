@@ -1,2 +1,6 @@
 server.port: 8001
+eureka:
+  client:
+    healthcheck:
+       enabled: true
 encrypted: "{cipher}2a4578628789711d2eb38d537d57bf573501c41a1d5c97addb3fade73aba1637e1048a9fafa1f35f88d52b80a3492b01"
